@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aqua;
+            text-align: center;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+    </style>
+</head>
+<body>
+    <form >
+       <fieldset>
+        <h1>Registration form</h1>
+        <legend>personalia</legend>
+        <label for="appt">Select a time:</label>
+        <input type="time" name="appt" id="appt">
+        <br>
+        <br>
+        <label for="name">Username:</label>
+        <input type="text" id="name" name="name" size="40" value="hema">
+        <br>
+        <br>
+        <label for="pwd">Password</label>
+        <input type="text" name="pwd" id="pwd">
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" autocomplete="off">
+        <br>
+        <br>
+        <label for="phone">Enter a valid phone Number</label>
+        <input type="tel" name="phone" id="phone" placeholder="123-45-678">
+       
+        <br>
+        <br>
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other:</label>
+        <br>
+        <br>
+        <label for="birthday time">Birthday (date and time): </label><br>
+        <input type="datetime-local" name="birthdaytime" id="birthdaytime">
+        <br>
+        <br>
+        <label for="myfile">Select a file:</label>
+        <input type="file" name="myfile" id="myfile">
+        <br>
+        <br>
+        <label for="Password">personal-password</label>
+        <input type="hidden" name="Password" id="Password">
+        <br>
+        <br>
+        <label for="10th passout">year of 10th passout:</label>
+        <input type="month" name="10th passout" id="10th passout">
+        <br>
+        <br>
+        <label for="favno">Favourite Number</label>
+        <input type="number" name="favno" id="favno" min="0"
+        max="10">
+        <br>
+        <br>
+
+        <label for="country">Country</label>
+        <select name="country" id="country">
+            <option value="india">India</option>
+            <option value="canada">Canada</option>
+            <option value="America">America</option>
+        </select>
+        <br>
+        <br>
+        <label for="language">Fav language</label>
+        <select name="language" id="language" multiple>
+            <option value="java">Java</option>
+            <option value="html">Html</option>
+            <option value="javascript">javascript</option>
+            <option value="python">Python</option>
+            <option value="css">Css</option>
+            
+        </select>
+        <datalist id="browser">
+            <option value="edge"></option>
+            <option value="firefox"></option>
+            <option value="chrome"></option>
+            <option value="safari"></option>
+        </datalist>
+        <br>
+        <br>
+        <input type="checkbox" name="vehicle1" id="vehicle" value="bike">
+        <label for="vehicle1">I have a bike</label><br>
+        <input type="checkbox" name="vehicle2" id="vehicle" value="scooty">
+        <label for="vehicle2">I have a scooty</label><br>
+        <input type="checkbox" name="vehicle3" id="vehicle" value="car">
+        <label for="vehicle3">I have a car</label><br>
+        <br>
+        <br>
+
+        <textarea name="message" id="message" cols="20" rows="5" >Enter any message you want to explore to other</textarea>
+        <br>
+        <br>
+        <label for="ratting">Rate this form</label>
+        <input type="range" name="ratting" id="ratting" min="0" max="5">
+        <br>
+        <br>
+        <label for="gs">Google Search</label>
+        <input type="search" name="gs" id="gs">
+        <br>
+        <br>
+
+
+        <input type="reset" name="reset" id="reset">
+        <br>
+        <br>
+        <input type="submit" value="submit">
+        <br>
+        <br>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
